@@ -1,0 +1,76 @@
+<!doctype html> 
+<html Lang="pt-pt"> 
+	<head>
+		<meta charset="utf-8"/> <!--codificação--->
+		<title>site inicial</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="shortcut icon" href="Imagens/icone.ico" type="image/x-icone">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head> 
+	
+	<body> 
+			<header>
+				<h1>Açores, um jardim no meio do atlantico</h1>
+			</header>
+
+			<h3>Sete cidades, onde a lagoa com as lágrimas de dois jóvens que se amavam se encontram, através de metade das aguas da lagoa ser azul e a outra metade verde.</h3>
+			<br>
+			<br>
+			<nav>
+
+			<div class="nav" id="mynav">
+			<a href="Piracicaba.html">Piracicaba</a>
+			<a href="Portugal.html">Portugal</a>
+			<a href="Index.html">index</a>	
+			<a href="javascript:void(0);" class="icon active" onclick="myFunction()">&equiv;</a>
+
+			</nav>						
+			</div>
+			<script>
+				function myFunction(){
+					var x = document.getElementById("mynav");
+					if (x.className === "nav"){
+						x.className += "responssive";
+				}
+				else{
+					x.className = "nav";
+				}
+			}
+		</script>
+
+		<main>
+
+			<img src="Imagens/sete_cidades.jpg" class= "sete_cidades">
+
+			<h3>Os reis desta terra encantada tinham uma linda filha que não gostava de se sentir presa entre as muralhas do castelo e saía todos os dias para os campos. Adorava o verde e as flores, o canto dos pássaros, o mar no horizonte. Passeava-se pelas aldeias, pelos montes e pelos vales.
+
+				Durante um dos seus passeios pelos campos conheceu um pastor, filho de gente simples do campo que vinha do trabalho com os seus rebanhos. Conversaram quase toda uma tarde das coisas da vida, e viram que gostavam das mesmas coisas. Dessa conversa demorada veio a nascer o amor e passaram a encontrar-se todos os dias, jurando amores
+				
+				No entanto a princesa já com o destino traçado pelos seus pais, tinha o casamento marcado com um príncipe de um reino vizinho. E quando o seu pai soube desses encontros com o pastor, tratou de os proibir, concedendo-lhe no entanto um encontro derradeiro para a despedida.
+				
+				Quando os dois apaixonados se encontraram pela última vez, choraram tanto que junto aos seus pés aos poucos foram crescendo duas lagoas. Uma das lagoas, com águas de cor azul, nasceu das lágrimas derramadas pelos olhos também azuis da princesa. A outras, de cor verde, nasceu das lágrimas derramadas dos olhos também verdes do pastor.</h3>
+			
+
+			<h2>mapa</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424319.7386397574!2d-25.545736981827297!3d37.84874035202748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb5cd77250e697c3%3A0xae4f6f26c3f63890!2sIlha%20de%20S%C3%A3o%20Miguel!5e1!3m2!1spt-PT!2spt!4v1644070617321!5m2!1spt-PT!2spt" class="mapa"frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+			
+
+		</main>	
+		<aside>
+			
+		
+		</aside>
+
+		<footer>
+			<p class="rodape">Agnaldo Silva | 2022
+				<br>
+				<a href="https://g1.globo.com/" target= "_blank"><img src="imagens/globo.jpg"class="socialmedia"></a>
+				<a href="https://https://www.r7.com/.com/agnaldo563/" target= "_blank"><img src="imagens/r7.jpg"class="socialmedia"></a>
+				<a href="https://https://www.rtp.pt/acores/.com/"target= "_blank" ><img src="imagens/rtp.jpg"class="socialmedia"></a>
+				<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
+		</footer>
+	</body>
+</html>
